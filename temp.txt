@@ -1,0 +1,2 @@
+| jq -r '.session_token' 
+-H "Authorization: user_token $USER_TOKEN" \
